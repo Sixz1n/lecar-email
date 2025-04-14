@@ -3,40 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <title>Email LECAR</title>
+  <style>
+    /* Reset de estilo básico */
+    body, table, td, a {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Estilos gerais do corpo */
+    body {
+      background-color: #f7f7f7;
+    }
+
+    /* Responsividade e largura máxima para telas maiores */
+    table {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Estilo do container do email */
+    .container {
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      padding: 30px;
+      color: #555555;
+    }
+
+    h1 {
+      font-size: 18px;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    /* Estilo do botão */
+    .cta-button {
+      display: inline-block;
+      background-color: #1eb980;
+      color: #ffffff;
+      padding: 14px 24px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      margin: 30px 0;
+      text-align: center;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #e0e0e0;
+      margin: 30px 0;
+    }
+
+    /* Estilo de imagem centralizada */
+    .image-center {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    /* Link de footer */
+    .footer a {
+      color: #1eb980;
+      text-decoration: none;
+    }
+
+    /* Responsividade para telas pequenas (mobile) */
+    @media screen and (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      .cta-button {
+        width: 100%;
+        padding: 12px 20px;
+      }
+
+      .image-center img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
 </head>
-<body style="margin:0; padding:0; background-color:#f7f7f7;">
+<body>
   <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#f7f7f7" style="padding: 40px 0;">
     <tr>
       <td align="center">
-        <table border="0" cellpadding="0" cellspacing="0" width="600" style="background-color:#ffffff; border-radius:8px; overflow:hidden; box-shadow:0 0 10px rgba(0,0,0,0.05);">
+        <table border="0" cellpadding="0" cellspacing="0" class="container">
           <tr>
-            <td align="left" style="padding: 30px; font-family: Arial, sans-serif; color: #555555; font-size: 16px; line-height: 1.6;">
-              <h1 style="font-size: 18px; color: #333333; margin: 0 0 20px;">Olá, |PRIMEIRO_NOME|,</h1>
-              <p style="margin: 0 0 15px;">Esperamos que esteja bem.</p>
-              <p style="margin: 0 0 15px;">Identificamos seu interesse recente em conhecer mais sobre a <strong>LECAR</strong> e, por isso, gostaríamos de manter o canal aberto entre nós.</p>
-              <p style="margin: 0 0 15px;">Estamos à disposição para esclarecer qualquer dúvida que tenha ficado sobre nosso modelo híbrido inteligente, o <strong>LECAR 459</strong> — um veículo que simboliza inovação, autonomia e uma nova proposta de mobilidade no Brasil.</p>
-              <p style="margin: 0 0 20px;">Se quiser conversar diretamente com nossa equipe e entender melhor o projeto, abrimos um canal exclusivo via WhatsApp para isso:</p>
-              <p style="text-align: center; margin: 30px 0;">
+            <td align="left">
+              <h1>Olá, |PRIMEIRO_NOME|,</h1>
+              <p>Esperamos que esteja bem.</p>
+              <p>Identificamos seu interesse recente em conhecer mais sobre a <strong>LECAR</strong> e, por isso, gostaríamos de manter o canal aberto entre nós.</p>
+              <p>Estamos à disposição para esclarecer qualquer dúvida que tenha ficado sobre nosso modelo híbrido inteligente, o <strong>LECAR 459</strong> — um veículo que simboliza inovação, autonomia e uma nova proposta de mobilidade no Brasil.</p>
+              <p>Se quiser conversar diretamente com nossa equipe e entender melhor o projeto, abrimos um canal exclusivo via WhatsApp para isso:</p>
+              <p style="text-align: center;">
                 <a href="https://wa.me/5511943403361?text=Olá%2C+conheci+a+LECAR+e+fiquei+interessado+em+saber+mais+sobre+o+modelo+LECAR+459." 
-                   style="display: inline-block; background-color: #1eb980; color: #ffffff; padding: 14px 24px; text-decoration: none; border-radius: 6px; font-size: 16px; font-weight: bold;">
+                   class="cta-button">
                   👉 Falar com um consultor
                 </a>
               </p>
-              <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 30px 0;">
-              <p style="margin: 0 0 15px;">🎟️ <strong>Oportunidade especial:</strong> entre os nomes que manifestarem interesse por meio da pré-reserva, realizaremos o sorteio de uma <strong>experiência exclusiva no stand da LECAR no Salão do Automóvel</strong>.</p>
-              <p style="margin: 0 0 15px;">Essa experiência é válida para um <strong>dia especial para convidados</strong>, com benefícios exclusivos e contato direto com nosso time de especialistas.</p>
-              <table width="100%" style="margin: 20px 0;" cellpadding="0" cellspacing="0">
-                <tr>
-                  <td align="center">
-                    <img src="https://i.imgur.com/s41e4dI.jpg" alt="Convite Exclusivo - Salão do Automóvel 2025" width="300" style="border-radius:6px; display:block;">
-                  </td>
-                </tr>
-              </table>
-              <p style="margin: 0 0 15px;">Caso ainda tenha dúvidas, nossa equipe está preparada para oferecer todos os esclarecimentos — <em>sem compromisso</em>.</p>
-              <p style="margin: 0 0 15px;">Conte com a gente.</p>
-              <p style="font-weight: bold; color: #333333; margin: 30px 0 0;">Equipe LECAR<br>
-                <a href="https://www.lecar.com.br" style="color: #1eb980; text-decoration: none;">www.lecar.com.br</a>
-              </p>
+              <hr>
+              <p>🎟️ <strong>Oportunidade especial:</strong> entre os nomes que manifestarem interesse por meio da pré-reserva, realizaremos o sorteio de uma <strong>experiência exclusiva no stand da LECAR no Salão do Automóvel</strong>.</p>
+              <p>Essa experiência é válida para um <strong>dia especial para convidados</strong>, com benefícios exclusivos e contato direto com nosso time de especialistas.</p>
+              <div class="image-center">
+                <img src="https://i.imgur.com/s41e4dI.jpg" alt="Convite Exclusivo - Salão do Automóvel 2025" width="300" style="border-radius:6px; display:block;">
+              </div>
+              <p>Caso ainda tenha dúvidas, nossa equipe está preparada para oferecer todos os esclarecimentos — <em>sem compromisso</em>.</p>
+              <p>Conte com a gente.</p>
+              <p class="footer">Equipe LECAR<br><a href="https://www.lecar.com.br">www.lecar.com.br</a></p>
             </td>
           </tr>
         </table>
